@@ -1,0 +1,52 @@
+{
+    "profile":{
+        "role": "Systems and Computing Engineer",
+        "description":"Enthusiastic, organized, motivated and insightful, that's me. I am a result-oriented person with excellent communication skills, I also have vast knowledge in digital and technological systems. I always seek to improve my skills, willing to learn and adapt to what is needed.",
+        "tel":"Phone: +593-990344916 "
+    },
+    "experience":{
+        "title": "Experience",
+
+        "first-job-title": "Technical Support",
+        "first-job-dates": "Newfoundland, March 2020 - October 2020 <br>(8 months)",
+        "first-job-description": "<b>PRE-PROFESSIONAL INTERNSHIP. </b><br><br>•&nbsp Installation of licensed office software applications and verified signature.<br>•&nbsp Maintenance of computer equipment , Printers or office support.<br>&nbsp Design and Installation of computer networks.<br>•&nbsp Design of Structured Cabling and Telecommunications.<br>•&nbsp Construction of a PAAS Hybrid Platform.<br>•&nbsp Application of ISO 27001 and 27005 standards.",
+
+
+        "second-job-title": "Technical Support",
+        "second-job-dates": "PUCESE, Sep 2019 - Feb 2020 <br>(6 Months)",
+        "second-job-description": "<b>PRE-PROFESSIONAL INTERNSHIP. </b><br><br>•&nbsp Design and implementation of an information technology Data Center at the Pontificia Universidad Católica del Ecuador Esmeraldas Campus , directed by the ICT department.<br>•&nbsp Maintenance of servers from different PUCESE departments, both physical and wireless computer networks, computer equipment and computer support for university personnel.<br>•&nbsp Administration of Virtual Servers .<br>•&nbsp Application of ISO 27001 and 27005 regulations (Information Security and Information Risk Management).",
+
+
+        "third-job-title": "Software Developer",
+        "third-job-dates": "Cmp. Esmeraldas, Apr 2019 - Aug 2019 <br>(7 months)",
+        "third-job-description": "<b>PRE-PROFESSIONAL INTERNSHIP. </b><br><br>•&nbsp Development of a web application for employees and clients of the company using C# under the .net framework and database SQL Server data.<br>•&nbsp Maintenance of the Application.<br><b>||Extra Responsibilities ||</b><br>•&nbsp Installation of a network server attached with a security camera system. <br>•&nbsp Customer Service.",
+
+
+        "last-job-title": "Software Developer",
+        "last-job-dates": "CodecWord, Dec 2017 - Aug 2018 <br>(9 months)",
+        "last-job-description": "<b>PRE-PROFESSIONAL INTERNSHIP. </b><br><br>•&nbsp Front End development of applications with C#, Javascript, Flutter and PHP.<br>•&nbsp Development and Administration of web pages under CMS WordPress, Ghost and Graph.<br>•&nbsp Execution of Application Testing.<br>•&nbsp Application of ISO 25010 Standard."
+    },
+    "hobbie":{
+        "title":"Hobbies",
+        "activity_1":"Write",
+        "description_1": "This hobby was born in 2016 thanks to my need to create a fantastic story from a game saga from my childhood. Over time I perfected it but even with that I still consider myself an amateur.",
+        "activity_2":"Fencing",
+        "description_2": "It was a hobby that was born thanks to Writing, I found myself writing a character with a unique combat style, so in research on types of fighting I found fencing. I researched it thoroughly, weapons, styles, rules of combat among others to such an extent that I liked it and ended up practicing it. I practice it when I feel under a lot of pressure, and it also serves as a self-defense combat art."
+    },
+    "tech":{
+        "yearsofexperience": "Years of Experience",
+        "title_1": "Development Technologies",
+        "title_2": "Database",
+        "title_3": "Other Knowledge"
+
+    },
+
+    "projects": {
+        "first-projects-title": "Security Badge Reader",
+        "first-projects-description":"Descriptions",
+       
+        "demo":"Demo",
+        "code":"Code"
+    }
+    
+}

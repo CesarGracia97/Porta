@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
     <link rel="stylesheet" href="css/styles.css" />
     <title>Portfolio</title>
   </head>
@@ -18,6 +18,14 @@
             alt ="icon theme" 
             class="toggle-theme__icon">
           <p id="toggle-text" class="=toggle-theme__icon"> Dark Mode</p>
+        </div>
+      </div>
+      <div id="flags" class="flags">
+        <div class="flags__item" data-language="es">
+          <img src="assets/icons/ea.svg" alt="">
+        </div>
+        <div class="flags__item" data-language="en">
+          <img src="assets/icons/gb.svg" alt="">
         </div>
       </div>
       <div id= "toggle-colors" class="colors">
@@ -36,7 +44,7 @@
     </header>
     <main class="main">
       <section class="column column--left">
-        <!-- Perfil de Tarjeta-->
+        <!--Tarjeta Perfil Inicio-->
         <article class="card card--profile">
           <div class="card__image-container">
             <img src="/assets/images/prof.jpg" 
@@ -44,127 +52,222 @@
           </div>
           <div class="card__header">
             <h2 class="card__title no-margin">Cesar Gracia Gallon</h2>
-            <p class="card__subtitle no-margin">Titulo y Cargo</p>
+            <p class="card__subtitle no-margin"data-section ="profile" data-value="rol">Ing. en Sistemas y Computacion</p>
           </div>
           <div class="card__body">
+            <div class="card__link">
+              <i class="fas fa-link icon"></i>
+              <a href="https://www.linkedin.com/in/sdx97/">Linkedin</a>
+            </div>
+            <div class="card__link">
+              <i class="fas fa-phone-alt icon"></i>
+              <a href="tel:+593990344916" data-section="profile" data-value="tel">Telefono: +593-990344916 </a>
+            </div>
             <div class="card__link">
               <i class="fas fa-envelope icon"></i>
               <a href="mailto:ces.ze.97@gmail.com">ces.ze.97@gmail.com</a>
             </div>
-            <div class="card__link">
-              <i class="fas fa-phone-alt icon"></i>
-              <a href="tel:+593990344916">Telefono: +593-990344916 </a>
-            </div>
-            <p class="card__text">
-              Hola soy cesar Steven Gracia Gallon, Ingeniero en Sistemas y programacion 
+          </div>
+            <p class="card__text" data-section="profile" data-value="description" style="text-align: justify;">
+              Entusiasta, organizada, motivada y perspicaz, ese soy yo. Soy una persona orientada hacia los resultados y con excelentes dotes comunicativos, también cuento con un vasto conocimiento en sistemas digitales y tecnológicos. Busco siempre mejorar mis habilidades, dispuesto a aprender y adaptarme a lo que se necesite.
             </p>
           </div>
         </article>
+        <!--Tarjeta Perfil Fin--> 
+
+        <!--Experiencia Inicio-->         
         <article class="card card--experience">
-          <h2 class="card__title">Experiencia</h2>
+          <h2 class="card__title" data-section="experience" data-value="title">Experiencia</h2>
           <div class="experience">
             <img src="assets/images/logo.png" alt="" class="experience__image">
             <div class="experience__info">
-              <p class="experience__time">
-                Año y Mes
+              <h3 class="experience__job text__title" data-section="experience" data-value="first-job-title">Soporte Técnico </h3>
+              <p class="experience__time" data-section="experience" data-value="first-job-dates">
+                Terranova, Mar 2020 - Oct 2020 <br>(8 meses)
               </p>
-              <h3 class="experience__job">Puesto</h3>
-              <p class="experience__description">Descripcion 
-              </p>
+              <p class="experience__description " data-section="experience" data-value="first-job-description" style="text-align: justify;">
+                <b>PRACTICAS PRE-PROFESIONALES. </b><br><br>
+                •&nbsp Instalación de aplicaciones software de oficina con licencia y firma verificada.
+                <br>•&nbsp Mantenimiento de equipo computacional, Impresoras o de apoyo de oficina.
+                <br>•&nbsp Diseño e Instalación de redes informáticas.
+                <br>•&nbsp Diseño de Cableado estructurado y Telecomunicaciones.
+                <br>•&nbsp Levantamiento de una Plataforma Hibridad PAAS.
+                <br>•&nbsp Aplicación de normativas ISO 27001 y 27005.</p>
             </div>
           </div>
           <div class="experience">
             <img src="assets/images/logo.png" alt="" class="experience__image">
             <div class="experience__info">
-              <p class="experience__time">
-                Año y Mes
+              <h3 class="experience__job text__title" data-section="experience" data-value="second-job-title">Soporte Técnico </h3>
+              <p class="experience__time" data-section="experience" data-value="second-job-dates">
+                PUCESE, Sep 2019 - Feb 2020 <br>(6 Meses)
               </p>
-              <h3 class="experience__job">Puesto</h3>
-              <p class="experience__description">Descripcion 
-              </p>
+              <p class="experience__description " data-section="experience" data-value="second-job-description" style="text-align: justify;">
+                <b>PRACTICAS PRE-PROFESIONALES. </b><br><br>
+                •&nbsp Diseño e implementación de un Data Center de tecnologías de la información de la Pontificia Universidad Católica del Ecuador Sede Esmeraldas, dirigido por el departamento de TICS.
+                <br>•&nbsp Mantenimiento de servidores de distintos departamentos de la PUCESE, redes informáticas tanto físicas como inalámbricas , equipos computacionales y soporte informático a personal de la universidad.
+                <br>•&nbsp Administración de Servidores Virtuales.
+                <br>•&nbsp Aplicación de normativas ISO 27001 y 27005 (Seguridad de la Información y Gestión de Riesgo de la Información).</p>
             </div>
           </div>
           <div class="experience">
             <img src="assets/images/logo.png" alt="" class="experience__image">
             <div class="experience__info">
-              <p class="experience__time">
-                Año y Mes
+              <h3 class="experience__job text__title" data-section="experience" data-value="third-job-title">Desarrollador Software</h3>
+              <p class="experience__time" data-section="experience" data-value="third-job-dates">
+                Cmp. Esmeraldas, Abr 2019 - Ago 2019 <br>(7 meses)
               </p>
-              <h3 class="experience__job">Puesto</h3>
-              <p class="experience__description">Descripcion 
+              <p class="experience__description " data-section="experience" data-value="third-job-description" style="text-align: justify;">
+                <b>PRACTICAS PRE-PROFESIONALES. </b><br><br>
+                •&nbsp Desarrollo de una aplicación web para trabajadores y clientes de la empresa utilizando C# bajo framework .net y base de datos SQL Server.
+                <br>•&nbsp Mantenimiento de la Aplicación.
+                <br><b>|| Responsabilidades Extras ||</b>
+                <br>•&nbsp Instalación de un servidor de Red adjunto con un sistemas de Cámaras de Seguridad.
+                <br>•&nbsp Atencion al Cliente.</p>
+            </div>
+          </div>
+          <div class="experience">
+            <img src="assets/images/logo.png" alt="" class="experience__image">
+            <div class="experience__info">
+              <h3 class="experience__job text__title" data-section="experience" data-value="third-job-title">Desarrollador Software</h3>
+              <p class="experience__time" data-section="experience" data-value="third-job-dates">
+                CodecWord, Dic 2017 - Ago 2018 <br>(9 meses)
               </p>
+              <p class="experience__description " data-section="experience" data-value="third-job-description" style="text-align: justify;">
+                <b>PRACTICAS PRE-PROFESIONALES. </b><br><br>
+                •&nbsp Desarrollo Front End de aplicaciones con C#, Javascript, Flutter y PHP.
+                <br>•&nbsp Desarrollo y Administración de paginas web bajo CMS WordPress, Ghost y Graph.
+                <br>•&nbsp Ejecución de Testing de aplicaciones. 
+                <br>•&nbsp Aplicación de Normativa ISO 25010.</p>
             </div>
           </div>
         </article>
+        <!--Experiencia Fin-->
+
+        <!--Hobbies Inicio-->       
         <article class="card card--hobies">
-          <h2 class="card__title">Hobbies</h2>
+          <h2 class="card__title" data-section="hobbie" data-value="title">Pasatiempos</h2>
           <div class="card__image-container">
-            <img src="assets/images/hobbie.jpg" alt="Man on a bike">
+            <img src="assets/images/Escritura.jpg" alt="Man on a bike">
           </div>
-          <h3 class="hobbie__title">Biking</h3>
-          <p class="card__text">Descripcion</p>
-        </article>
+          <h3 class="hobbie__title" data-section="hobbie" data-value="activity_1">Escritura</h3>
+          <p class="card__text" data-section="hobbie" data-value="description_1">Descripcion</p>
+          <div class="card__image-container">
+            <img src="assets/images/Esgrima.jpg" alt="Man on a bike">
+          </div>
+          <h3 class="hobbie__title" data-section="hobbie" data-value="activity_2">Esgrima</h3>
+          <p class="card__text" data-section="hobbie" data-value="description_2">Descripcion</p>
+        <!--Hobbies Fin-->
       </section>
       <section class="column column--right">
+        <!--Tech Inicio-->   
         <article class="card">
-          <h2 class="card__title">Front End</h2>
-          <small>Años de Experiencia</small>
+          <h2 class="card__title" data-section="tech" data-value="title_1">Tecnologias de Desarrollo</h2>
+          <small data-section="tech" data-value="yearsofexperience">Años de Experiencia</small>
           <div class="skills">
             <div class="skills__header">
               <span class="skills__start-level">0</span>
               <span class="skills__start-level">3</span>
             </div>
             <div class="skills__item">
-              <p class="skills__tech">HTML</p>
-              <div class="skills__bar skills__bar--70"></div>
-            </div>
-            <div class="skills__item">
-              <p class="skills__tech">CSS</p>
-              <div class="skills__bar skills__bar--80"></div>
+              <p class="skills__tech">HTML y CSS</p>
+              <div class="skills__bar skills__bar--T1"></div>
             </div>
             <div class="skills__item">
               <p class="skills__tech">Javascript</p>
-              <div class="skills__bar skills__bar--90"></div>
+              <div class="skills__bar skills__bar--T2"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">C#</p>
+              <div class="skills__bar skills__bar--T3"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Java</p>
+              <div class="skills__bar skills__bar--T4"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Python</p>
+              <div class="skills__bar skills__bar--T5"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Flutter</p>
+              <div class="skills__bar skills__bar--T6"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Rect.JS</p>
+              <div class="skills__bar skills__bar--T7"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Blazor y .NET</p>
+              <div class="skills__bar skills__bar--T8"></div>
             </div>
           </div>
         </article>
         <article class="card">
-          <h2 class="card__title">Bases de Datos</h2>
+          <h2 class="card__title" data-section="tech" data-value="title_2">Bases de Datos</h2>
+          <small class="skills__small" data-section="tech" data-value="yearsofexperience">Años de Experiencia</small>
           <div class="skills">
-            <div class="skills__item">
-              <p class="skills__tech">HTML</p>
-              <div class="skills__bar skills__bar--70"></div>
+            <div class="skills__header">
+              <span class="skills__start-level">0</span>
+              <span class="skills__start-level">3</span>
             </div>
             <div class="skills__item">
-              <p class="skills__tech">CSS</p>
-              <div class="skills__bar skills__bar--80"></div>
+              <p class="skills__tech">Postgressql</p>
+              <div class="skills__bar skills__bar--B1"></div>
             </div>
             <div class="skills__item">
-              <p class="skills__tech">Javascript</p>
-              <div class="skills__bar skills__bar--90"></div>
+              <p class="skills__tech">Sql Server</p>
+              <div class="skills__bar skills__bar--B2"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">MySql</p>
+              <div class="skills__bar skills__bar--B3"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">MongoDB</p>
+              <div class="skills__bar skills__bar--B4"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">MariaDB</p>
+              <div class="skills__bar skills__bar--B5"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Graph</p>
+              <div class="skills__bar skills__bar--B6"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Firebase</p>
+              <div class="skills__bar skills__bar--B7"></div>
             </div>
           </div>
         </article>
         <article class="card">
-          <h2 class="card__title">Bases de Datos</h2>
+          <h2 class="card__title" data-section="tech" data-value="title_3">Otros Conocimientos</h2>
           <div class="skills">
             <div class="skills__item">
-              <p class="skills__tech">HTML</p>
-              <div class="skills__bar skills__bar--70"></div>
+              <p class="skills__tech">Ciberseguridad y Analisis de la Seguridad de la Informacion</p>
             </div>
             <div class="skills__item">
-              <p class="skills__tech">CSS</p>
-              <div class="skills__bar skills__bar--80"></div>
+              <p class="skills__tech">Docker y Kubernets</p>
             </div>
             <div class="skills__item">
-              <p class="skills__tech">Javascript</p>
-              <div class="skills__bar skills__bar--90"></div>
+              <p class="skills__tech">GIT</p>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Tecnologias Cloud: AWS, Google Cloud y Azure</p>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">ISO: 25010, 27000, 27001, 27002 y 27005</p>
             </div>
           </div>
         </article>
+
+        <!--Tech Fin-->
+
+        <!--Project Inicio-->
         <article class="card card--project">
           <div class="card__image-container">
-            <img src="assets/images/project.jpg" alt="Landing Page"
+            <img src="assets/images/tesseract-ocr.jpg" alt="Lector de Placas de Seguridad"
             class="card__image">
           </div>
           <div class="project">
@@ -174,54 +277,15 @@
               <span class="project__tag">#Javascript</span>
               <span class="project__tag">#Responsive</span>
             </div>
-            <h2 class="card__title">Landing Page</h2>
-            <p class="card__text">Descripcion</p>
+            <h2 class="card__title" data-section="projects" data-value="first-projects-title">Lector de Placas de Seguridad</h2>
+            <p class="card__text" data-section="projects" data-value="first-projects-description">Descripcion</p>
             <div class="buttons">
-              <a href="#" class="button button--primary">Demo</a>
-              <a href="#" class="button button--ghost">Code</a>
+              <a href="#" class="button button--primary" data-section="projects" data-value="demo">Demo</a>
+              <a href="#" class="button button--ghost"  data-section="projects" data-value="code">Codigo</a>
             </div>
           </div>
         </article>
-        <article class="card card--project">
-          <div class="card__image-container">
-            <img src="assets/images/project.jpg" alt="Landing Page"
-            class="card__image">
-          </div>
-          <div class="project">
-            <div class="project__tags">
-              <span class="project__tag">#HTML</span>
-              <span class="project__tag">#CSS</span>
-              <span class="project__tag">#Javascript</span>
-              <span class="project__tag">#Responsive</span>
-            </div>
-            <h2 class="card__title">Landing Page</h2>
-            <p class="card__text">Descripcion</p>
-            <div class="buttons">
-              <a href="#" class="button button--primary">Demo</a>
-              <a href="#" class="button button--ghost">Code</a>
-            </div>
-          </div>
-        </article>
-        <article class="card card--project">
-          <div class="card__image-container">
-            <img src="assets/images/project.jpg" alt="Landing Page"
-            class="card__image">
-          </div>
-          <div class="project">
-            <div class="project__tags">
-              <span class="project__tag">#HTML</span>
-              <span class="project__tag">#CSS</span>
-              <span class="project__tag">#Javascript</span>
-              <span class="project__tag">#Responsive</span>
-            </div>
-            <h2 class="card__title">Landing Page</h2>
-            <p class="card__text">Descripcion</p>
-            <div class="buttons">
-              <a href="#" class="button button--primary">Demo</a>
-              <a href="#" class="button button--ghost">Code</a>
-            </div>
-          </div>
-        </article>
+        <!--Project Fin-->
       </section>
     </main>
     <script src="js/scripts.js"></script>

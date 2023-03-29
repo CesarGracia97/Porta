@@ -1,0 +1,53 @@
+{
+    "profile":{
+        "rol": "Ing. en Sistemas y Computacion",
+        "description":"Entusiasta, organizada, motivada y perspicaz, ese soy yo. Soy una persona orientada hacia los resultados y con excelentes dotes comunicativos, también cuento con un vasto conocimiento en sistemas digitales y tecnológicos. Busco siempre mejorar mis habilidades, dispuesto a aprender y adaptarme a lo que se necesite.",
+        "tel":"Telefono: +593-990344916 "
+    },
+    "experience":{
+        "title": "Experiencia",
+
+        "first-job-title": "Soporte Técnico",
+        "first-job-dates": "Terranova, Marzo 2020 - Octubre 2020 <br>(8 meses)",
+        "first-job-description": "<b>PRACTICAS PRE-PROFESIONALES. </b><br><br>•&nbsp Instalación de aplicaciones software de oficina con licencia y firma verificada.<br>•&nbsp Mantenimiento de equipo computacional, Impresoras o de apoyo de oficina.<br>&nbsp Diseño e Instalación de redes informáticas.<br>•&nbsp Diseño de Cableado estructurado y Telecomunicaciones.<br>•&nbsp Levantamiento de una Plataforma Hibridad PAAS.<br>•&nbsp Aplicación de normativas ISO 27001 y 27005.",
+
+
+        "second-job-title": "Soporte Técnico",
+        "second-job-dates": "PUCESE, Sep 2019 - Feb 2020 <br>(6 Meses)",
+        "second-job-description": "<b>PRACTICAS PRE-PROFESIONALES. </b><br><br>•&nbsp Diseño e implementación de un Data Center de tecnologías de la información de la Pontificia Universidad Católica del Ecuador Sede Esmeraldas, dirigido por el departamento de TICS.<br>•&nbsp Mantenimiento de servidores de distintos departamentos de la PUCESE, redes informáticas tanto físicas como inalámbricas , equipos computacionales y soporte informático a personal de la universidad.<br>•&nbsp Administración de Servidores Virtuales.<br>•&nbsp Aplicación de normativas ISO 27001 y 27005 (Seguridad de la Información y Gestión de Riesgo de la Información).",
+
+
+        "third-job-title": "Desarrollador Software",
+        "third-job-dates": "Cmp. Esmeraldas, Abr 2019 - Ago 2019 <br>(7 meses)",
+        "third-job-description": "<b>PRACTICAS PRE-PROFESIONALES. </b><br><br>•&nbsp Desarrollo de una aplicación web para trabajadores y clientes de la empresa utilizando C# bajo framework .net y base de datos SQL Server.<br>•&nbsp Mantenimiento de la Aplicación.<br><b>|| Responsabilidades Extras ||</b><br>•&nbsp Instalación de un servidor de Red adjunto con un sistemas de Cámaras de Seguridad.<br>•&nbsp Atencion al Cliente.",
+
+
+        "last-job-title": "Desarrollador Software",
+        "last-job-dates": "CodecWord, Dic 2017 - Ago 2018 <br>(9 meses)",
+        "last-job-description": "<b>PRACTICAS PRE-PROFESIONALES. </b><br><br>•&nbsp Desarrollo Front End de aplicaciones con C#, Javascript, Flutter y PHP.<br>•&nbsp Desarrollo y Administración de paginas web bajo CMS WordPress, Ghost y Graph.<br>•&nbsp Ejecución de Testing de aplicaciones.<br>•&nbsp Aplicación de Normativa ISO 25010."
+    },
+    "hobbie":{
+        "title":"Pasatiempos",
+
+        "activity_1":"Escritura",
+        "description_1": "Este pasatiempo nacio en 2016 gracias a mi necesidad de crear una historia fantastica de una saga de juegos de mi infancia. Con el pasar del tiempo lo fui perfeccionando pero aun con eso me considero aun un amateur.",
+        
+        "activity_2":"Esgrima",
+        "description_2": "Fue un pasatiempo que nacio gracias a la Escritura, me encontraba escribiendo un personaje con un estilo de combate unico, asi que en investigaciones sobre tipos de pelea encontre la esgrima. La investigue a fondo, armas, estilos, normas de combate entre otros a tal punto que me gusto y lo termine practicando. Lo practico cuando me siento con mucha presion, ademas que me sirve como arte de combate de defensa personal."
+    },
+    "tech":{
+        "yearsofexperience": "Años de Experiencia",
+        "title_1": "Tecnologias de Desarrollo",
+        "title_2": "Bases de Datos",
+        "title_3": "Otros Conocimientos"
+
+    },
+
+    "projects": {
+        "first-projects-title": "Lector de Placas de Seguridad",
+        "first-projects-description":"Descripciones",
+
+        "demo":"Demo",
+        "code":"Codigo"
+    }
+}

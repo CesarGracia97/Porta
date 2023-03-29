@@ -69,6 +69,25 @@ body.dark{
 }
 
 /*Fin headder:-----------------------------------------------------------------------*/
+/*Inicios flags:-----------------------------------------------------------------------*/
+
+.flags{
+    width: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flags__item{
+    width: 30px;
+}
+
+.flags__img{
+    display: block;
+    cursor: pointer;
+}
+
+/*Fin flags:-----------------------------------------------------------------------*/
 /*Inicio colors:-----------------------------------------------------------------------*/
 
 .colors{
@@ -135,6 +154,17 @@ body.dark{
         align-items: start;
     }
 }
+.text__title{
+    font-size: 2rem;
+}
+
+.text__subtitle{
+    font-size: 1.2rem;
+}
+
+.text__content{
+    font-size: 0.9rem;
+}
 
 /*Fin body:-----------------------------------------------------------------------*/
 /*Inicio card:-----------------------------------------------------------------------*/
@@ -146,7 +176,7 @@ body.dark{
 }
 
 .card__image-container{
-    min-width: 320px;
+    min-width: 425px;
     border-radius: var(--border-radius);
     overflow: hidden;
 }
@@ -157,16 +187,17 @@ body.dark{
 
  .card__title{
     margin-bottom: 1em;
-    font-size: 1.2rem;
+    font-size: 2rem;
 }
 
 .card__subtitle{
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     opacity: 0.8;
 }
 
 .card__link{
     margin-bottom: 0.5em;
+
 }
 
 .card__text{
@@ -183,6 +214,9 @@ body.dark{
 }
 
 /*Fin card:-----------------------------------------------------------------------*/
+.icon{
+    margin-right: 1em;
+}
 /*Inicio skills:-----------------------------------------------------------------------*/
 
 .skills{
@@ -198,7 +232,7 @@ body.dark{
 
 .skills__tech{
     margin: 0;
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 .skills__item{
@@ -226,25 +260,72 @@ body.dark{
     animation: skill-bar-fill 2s ease-in-out forwards;
 }
 
-.skills__bar--70::after{
+.skills__bar--T1::after{
+    --skill-bar-length:60%;
+}
+
+.skills__bar--T2::after{
     --skill-bar-length:70%;
 }
 
-.skills__bar--80::after{
+.skills__bar--T3::after{
+    --skill-bar-length:85%;
+}
+
+.skills__bar--T4::after{
+    --skill-bar-length:30%;
+}
+
+.skills__bar--T5::after{
+    --skill-bar-length:30%;
+}
+
+.skills__bar--T6::after{
+    --skill-bar-length:50%;
+}
+
+.skills__bar--T7::after{
+    --skill-bar-length:60%;
+}
+
+.skills__bar--T8::after{
     --skill-bar-length:80%;
 }
 
-.skills__bar--90::after{
-    --skill-bar-length:90%;
+.skills__bar--B1::after{
+    --skill-bar-length:50%;
 }
 
+.skills__bar--B2::after{
+    --skill-bar-length:75%;
+}
+
+.skills__bar--B3::after{
+    --skill-bar-length:30%;
+}
+
+.skills__bar--B4::after{
+    --skill-bar-length:40%;
+}
+
+.skills__bar--B5::after{
+    --skill-bar-length:35%;
+}
+
+.skills__bar--B6::after{
+    --skill-bar-length:10%;
+}
+
+.skills__bar--B7::after{
+    --skill-bar-length:50%;
+}
 /*Fin skills:-----------------------------------------------------------------------*/
 /*Inicio experience:-----------------------------------------------------------------------*/
 
 .experience{
     display: flex;
-    align-items: start;
-    margin-bottom: 1em;
+    align-items: center;
+    margin-bottom: 2em;
     padding: 1em;
     border: 2px solid var(--primary-color);
     border-radius: var(--border-radius);
@@ -257,7 +338,7 @@ body.dark{
 }
 
 .experience__time{
-    font-size: 0.8rem;
+    font-size: 1.1rem;
     margin-bottom: 0.5em;
 }
 
@@ -269,8 +350,9 @@ body.dark{
 }
 
 .experience__desciption{
-    font-size: 0.8rem;
+    font-size: 0.65rem;
     margin-bottom: 1.5em;
+    margin: 1;
 }
 
 /*Fin experience:-----------------------------------------------------------------------*/
@@ -345,10 +427,6 @@ body.dark{
 }
 
 /*Fin button:-----------------------------------------------------------------------*/
-
-.icon{
-    margin-right: 1em;
-}
 
 .no-margin{
     margin: 0;
